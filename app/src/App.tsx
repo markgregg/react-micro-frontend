@@ -2,9 +2,9 @@ import CompactSelect from "compact-select";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { applyTheme, themes, Themes } from "./themes/themes";
-import Examples from "micro-front-end-component1";
-import Demo from "micro-front-end-component2";
-import About from "micro-front-end-component3";
+import Examples from "react-micro-frontend-comp1";
+import Demo from "react-micro-frontend-comp2";
+import About from "react-micro-frontend-comp3";
 import { bondList } from "./data/bondList";
 import { bigChoices, words, typed, complex} from "./data/data";
 import "ag-grid-community/styles/ag-grid.css";
@@ -32,7 +32,7 @@ const App = () => {
           <div className="header">
             <h1 className="title">An example micro frontend app for React</h1>
             <p className="statement">
-              A pratcial, working example of how to create a micro frontend react app.
+              A pratcial, working example of a micro frontend app.
             </p>
           </div>
           <div className="menu-bar">

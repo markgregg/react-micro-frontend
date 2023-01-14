@@ -1,5 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Examples snapshot 1`] = `
+<div
+  className="examples"
+>
+  <VerticalMenu
+    onSelect={[Function]}
+    options={
+      [
+        "Binding",
+        "Single Select",
+        "Multi Select",
+        "Look-up",
+        "Custom Values",
+        "Selection prefixed",
+        "Disabled",
+        "Ag-Grid",
+      ]
+    }
+    title="Catagories"
+  />
+  <div
+    className="controls"
+  />
+</div>
+`;
+
 exports[`demo snapshot 1`] = `
 <div
   className="examples"

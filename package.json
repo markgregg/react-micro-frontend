@@ -1,18 +1,19 @@
 {
-  "name": "micro-front-end--example",
+  "name": "react-micro-frontend-example",
+  "version": "1.0.1",
   "private": true,
-  "description": "Micro front-end example",
-  "keywords": [],
+  "description": "React Micro frontend example",
   "author": "Mark Gregg <gregg.mark@gmail.com> (https://github.com/markgregg)",
   "workspaces": [
     "app/*",
     "components/*"
   ],
-  "scripts": {
-  },
-  "devDependencies": {
-    "prettier": "^2.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+  "keywords": [
+    "react",
+    "micro-frontend",
+    "micro UI",
+    "micro frontend",
+    "micro",
+    "frontend"
+  ]
 }

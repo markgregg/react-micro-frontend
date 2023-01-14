@@ -1,5 +1,5 @@
 # A micro frontend approach for JavaScript
-[Demo](https://markgregg.github.io/react-micro-front-ends/) 
+[Demo](https://markgregg.github.io/react-micro-frontend/) 
 ## Intro
 For those of you don’t who know what a micro frontend is – a micro frontend is an architecture in which the UI is decomposed into individual, loosely coupled components that can be built, tested, and deployed independently. A parallel is the microservices architecture, where the backend is divided into individual services.
 
@@ -21,7 +21,7 @@ The approach has the following benefits
 ## Project structure
 The structure of the project would look as follows-
 
-![alt text](https://github.com/markgregg/react-micro-front-ends/blob/main/components/micro-front-end-component3/src/images/structure.png?raw=true)
+![alt text](https://github.com/markgregg/react-micro-frontend/blob/main/components/micro-front-end-component3/src/images/structure.png?raw=true)
 
 The structure may look like a mono repo, but that is only because the above is an example. In an actual project, the app and components would be separate repos.
 
@@ -85,6 +85,6 @@ The application should be considerably smaller and only consist of a frame, menu
 As I mentioned earlier, Relative-deps should be used in the app to load local changes before they are published.
 
 ## A working example
-A working example can be seen [here](https://markgregg.github.io/react-micro-front-ends/) 
+A working example can be seen [here](https://markgregg.github.io/react-micro-frontend/) 
 
-The code is available  [here](https://github.com/markgregg/react-micro-front-ends)
+The code is available  [here](https://github.com/markgregg/react-micro-frontend)

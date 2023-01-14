@@ -1,5 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Demo snapshot 1`] = `
+<div
+  className="demo"
+>
+  <h2
+    className="demo-title"
+  >
+    Bind String
+  </h2>
+  <div
+    className="demo-description"
+  >
+    <p>
+      The simpliest way to use the universal select - set the options to an array of strings
+    </p>
+  </div>
+  <div
+    className="demo-item"
+  >
+    <AgGridUniversalFilter
+      choices={
+        [
+          {
+            "key": "Words",
+            "options": [],
+          },
+        ]
+      }
+      minWidth="400px"
+      onChange={[Function]}
+      title="Bind String"
+    />
+    <div
+      className="icons"
+    >
+      <AiOutlineCode
+        onClick={[Function]}
+      />
+      <div
+        className="copy-wrapper"
+      >
+        <AiOutlineCopy
+          onClick={[Function]}
+        />
+      </div>
+      <AiOutlineEdit
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+  <div>
+    <h6
+      className="nospace"
+    >
+      Selection
+    </h6>
+    <p
+      className="nospace"
+    >
+      
+    </p>
+  </div>
+</div>
+`;
+
 exports[`demo snapshot 1`] = `
 <div
   className="demo"
