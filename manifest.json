@@ -1,19 +1,14 @@
 {
-  "short_name": "Compact Select",
-  "name": "Compact Select Examples",
+  "short_name": "React MFE",
+  "name": "React Micro Frontend",
   "icons": [
     {
-      "src": "CompactSelect.ico",
-      "sizes": "32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "CompactSelect.png",
+      "src": "micro-frontend.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "CompactSelect.png",
+      "src": "micro-frontend.png",
       "type": "image/png",
       "sizes": "512x512"
     }
