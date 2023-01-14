@@ -1,6 +1,6 @@
 {
   "name": "react-micro-frontend-comp3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Exmaple micro frontend component",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

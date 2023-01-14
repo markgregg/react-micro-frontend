@@ -42,7 +42,7 @@ const About = () => {
 
       <p>One of the benefits of not hosting the component independently, is the ability to leverage style from the parent. In my opinion, the best way to achieve this, is to give each component its own stylesheets and to drive the stylesheets from variables. This will allow the component to be developed independently, while at the same time, allowing the look and feel to be controlled form the parent.</p>
 
-      <h4>Parent stylesheet</h4>
+      <h4>App stylesheet</h4>
       <p>{`{`}
         --color: white; <br/>
         --backgroundColor: black; <br/>

@@ -21,7 +21,7 @@ The approach has the following benefits
 ## Project structure
 The structure of the project would look as follows-
 
-![alt text](https://github.com/markgregg/react-micro-frontend/blob/main/components/micro-front-end-component3/src/images/structure.png?raw=true)
+![alt text](https://github.com/markgregg/react-micro-frontend/blob/main/components/react-micro-frontend-comp3/src/images/structure.png?raw=true)
 
 The structure may look like a mono repo, but that is only because the above is an example. In an actual project, the app and components would be separate repos.
 
@@ -33,7 +33,7 @@ When breaking out elements of a UI into separate components, there is a great de
 
 One of the benefits of not hosting the component independently, is the ability to leverage style from the parent. In my opinion, the best way to achieve this, is to give each component its own stylesheets and to drive the stylesheets from variables. This will allow the component to be developed independently, while at the same time, allowing the look and feel to be controlled form the parent.
 
-#### Parent stylesheet
+#### App stylesheet
 ```css
 {
   --color: white;
