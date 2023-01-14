@@ -72,7 +72,7 @@
   font-size: medium;
   font-weight: bold;
   text-align: center;
-  color: var(--pageFont);
+  color: var(--universalSelectFontColor);
 }
 
 .menu-item:hover {
