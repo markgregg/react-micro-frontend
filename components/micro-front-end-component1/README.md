@@ -1,4 +1,5 @@
 # A micro frontend approach for JavaScript
+[Demo](https://markgregg.github.io/react-micro-front-ends/) 
 ## Intro
 For those of you don’t who know what a micro frontend is – a micro frontend is an architecture in which the UI is decomposed into individual, loosely coupled components that can be built, tested, and deployed independently. A parallel is the microservices architecture, where the backend is divided into individual services.
 
