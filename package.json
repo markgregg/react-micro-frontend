@@ -1,7 +1,6 @@
 {
   "name": "react-micro-frontend-example",
   "version": "1.0.1",
-  "private": true,
   "description": "React Micro frontend example",
   "author": "Mark Gregg <gregg.mark@gmail.com> (https://github.com/markgregg)",
   "workspaces": [
