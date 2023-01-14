@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-micro-front-ends/static/css/main.a47a027b.css",
-    "main.js": "/react-micro-front-ends/static/js/main.286b4420.js",
+    "main.css": "/react-micro-front-ends/static/css/main.25e4a6ef.css",
+    "main.js": "/react-micro-front-ends/static/js/main.46ee3ab1.js",
     "react-syntax-highlighter/refractor-core-import.js": "/react-micro-front-ends/static/js/react-syntax-highlighter/refractor-core-import.394b9232.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js",
@@ -156,8 +156,8 @@
     "react-syntax-highlighter_languages_refractor_yaml.js": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_yaml.8e808f46.chunk.js",
     "static/js/787.9b2706ce.chunk.js": "/react-micro-front-ends/static/js/787.9b2706ce.chunk.js",
     "index.html": "/react-micro-front-ends/index.html",
-    "main.a47a027b.css.map": "/react-micro-front-ends/static/css/main.a47a027b.css.map",
-    "main.286b4420.js.map": "/react-micro-front-ends/static/js/main.286b4420.js.map",
+    "main.25e4a6ef.css.map": "/react-micro-front-ends/static/css/main.25e4a6ef.css.map",
+    "main.46ee3ab1.js.map": "/react-micro-front-ends/static/js/main.46ee3ab1.js.map",
     "refractor-core-import.394b9232.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter/refractor-core-import.394b9232.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js.map",
@@ -313,7 +313,7 @@
     "787.9b2706ce.chunk.js.map": "/react-micro-front-ends/static/js/787.9b2706ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a47a027b.css",
-    "static/js/main.286b4420.js"
+    "static/css/main.25e4a6ef.css",
+    "static/js/main.46ee3ab1.js"
   ]
 }
