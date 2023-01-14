@@ -19,7 +19,9 @@ The approach has the following benefits
 -	Keep a uniform style across the UI is easier than when host independently 
 ## Project structure
 The structure of the project would look as follows-
- 
+
+![alt text](https://github.com/markgregg/react-micro-front-ends/blob/main/components/micro-front-end-component3/src/images/structure.png?raw=true)
+
 The structure may look like a mono repo, but that is only because the above is an example. In an actual project, the app and components would be separate repos.
 
 ## Components
