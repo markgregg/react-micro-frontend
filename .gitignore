@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+/components/micro-front-end-component1/lib/cjs
+/components/micro-front-end-component1/lib/esm
+/components/micro-front-end-component2/lib/esm
+/components/micro-front-end-component2/lib/cjs
+/components/micro-front-end-component3/lib/esm
+/components/micro-front-end-component3/lib/cjs

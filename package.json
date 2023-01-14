@@ -1,0 +1,18 @@
+{
+  "name": "micro-front-end--example",
+  "private": true,
+  "description": "Micro front-end example",
+  "keywords": [],
+  "author": "Mark Gregg <gregg.mark@gmail.com> (https://github.com/markgregg)",
+  "workspaces": [
+    "app/*",
+    "components/*"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

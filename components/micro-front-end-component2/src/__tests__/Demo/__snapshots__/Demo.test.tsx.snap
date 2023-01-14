@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Examples snapshot 1`] = `
+<div
+  className="bond-demo"
+>
+  <div
+    className="select-area"
+  >
+    <div
+      className="help_container"
+    >
+      <div
+        className="help"
+        onClick={[Function]}
+      >
+        <MdOutlineHelpCenter />
+      </div>
+    </div>
+    <AgGridUniversalFilter
+      choices={
+        [
+          {
+            "agGridColumn": "isinCode",
+            "choiceDisplayName": "Isin",
+            "key": "isinCode",
+            "lookUp": [Function],
+            "prefix": "Isin",
+            "regExMatch": /\\.\\*/,
+          },
+          {
+            "agGridColumn": "haircutCategory",
+            "choiceDisplayName": "Haircut Cut",
+            "key": "haircutCategory",
+            "options": [],
+            "prefix": "Haircut Cut",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "type",
+            "choiceDisplayName": "Type",
+            "key": "type",
+            "options": [],
+            "prefix": "type",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "refMarket",
+            "choiceDisplayName": "Reference Market",
+            "key": "refMarket",
+            "options": [],
+            "prefix": "ref mkt",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "demonination",
+            "choiceDisplayName": "Demonination",
+            "key": "demonination",
+            "options": [],
+            "prefix": "demon",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "couponRate",
+            "choiceDisplayName": "Coupon Rate",
+            "filterType": "number",
+            "key": "coupon",
+            "prefix": "coupon rate",
+            "regExMatch": /\\^\\\\d\\{0,1\\}\\(\\\\\\.\\\\d\\{1,4\\}\\)\\?\\$/,
+            "replaceExisting": true,
+          },
+          {
+            "agGridColumn": "issuranceDate",
+            "choiceDisplayName": "Issurance Date",
+            "filterType": "date",
+            "key": "issuranceDate",
+            "prefix": "issurance date",
+            "regExMatch": /\\^\\(0\\?\\[1-9\\]\\|\\[12\\]\\[0-9\\]\\|3\\[01\\]\\)\\[\\\\-\\]\\(0\\?\\[1-9\\]\\|1\\[012\\]\\)\\[\\\\/\\\\-\\]\\\\d\\{4\\}\\$/,
+            "replaceExisting": true,
+            "valueConverter": [Function],
+          },
+          {
+            "agGridColumn": "maturityDate",
+            "choiceDisplayName": "Maturity Date",
+            "filterType": "date",
+            "key": "maturityDate",
+            "prefix": "maturity date",
+            "regExMatch": /\\^\\[0-9\\]\\{0,2\\}\\$/,
+            "replaceExisting": true,
+            "valueConverter": [Function],
+            "valueGetter": [Function],
+          },
+          {
+            "agGridColumn": "issuerCsd",
+            "choiceDisplayName": "Issuer CSD",
+            "key": "issuerCsd",
+            "options": [],
+            "prefix": "csd",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "issuerName",
+            "choiceDisplayName": "Issuer Name",
+            "key": "issuerName",
+            "prefix": "issuerName",
+            "regExMatch": /\\.\\*/,
+            "replaceExisting": true,
+          },
+          {
+            "agGridColumn": "issuerResidence",
+            "choiceDisplayName": "Issuser Residence",
+            "key": "issuerResidence",
+            "options": [],
+            "prefix": "issuer res",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "issuerGroup",
+            "choiceDisplayName": "Issuer Group",
+            "key": "issuerGroup",
+            "options": [],
+            "prefix": "issuer grp",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "guarantorName",
+            "choiceDisplayName": "Guarantor Name",
+            "key": "guarantorName",
+            "prefix": "guarantorName",
+            "regExMatch": /\\.\\*/,
+            "replaceExisting": true,
+          },
+          {
+            "agGridColumn": "guarantorResidence",
+            "choiceDisplayName": "Guarantor Residence",
+            "key": "guarantorResidence",
+            "options": [],
+            "prefix": "guarantor res",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "guarantorGroup",
+            "choiceDisplayName": "Guarantor Group",
+            "key": "guarantorGroup",
+            "options": [],
+            "prefix": "guarantor grp",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "couponDef",
+            "choiceDisplayName": "Coupon Definition",
+            "key": "couponDef",
+            "options": [],
+            "prefix": "coupon def",
+            "regExMatch": undefined,
+          },
+          {
+            "agGridColumn": "haircut",
+            "choiceDisplayName": "Haircut",
+            "filterType": "number",
+            "key": "haircut",
+            "prefix": "haircut",
+            "regExMatch": /\\^\\\\d\\{0,2\\}\\(\\\\\\.\\\\d\\{1,4\\}\\)\\?\\$/,
+            "replaceExisting": true,
+          },
+        ]
+      }
+      title="Quick Filter"
+      width="100%"
+    />
+  </div>
+  <div
+    className="ag-theme-alpine"
+    style={
+      {
+        "--ag-background-color": "var(--pageColor5)",
+        "--ag-foreground-color": "var(--pageFont)",
+        "--ag-header-background-color": "var(--pageColor2)",
+        "--ag-header-column-resize-handle-color": "var(--pageFont)",
+        "--ag-header-foreground-color": "var(--universalSelectFontColor)",
+        "--ag-odd-row-background-color": "var(--pageColor4)",
+        "flex": 1,
+      }
+    }
+  >
+    <AgGridReact
+      columnDefs={
+        [
+          {
+            "field": "isinCode",
+            "filter": "agSetColumnFilter",
+            "headerName": "ISIN Code",
+            "resizable": true,
+            "width": 150,
+          },
+          {
+            "field": "haircutCategory",
+            "filter": "agSetColumnFilter",
+            "headerName": "Haircut Category",
+            "resizable": true,
+            "width": 120,
+          },
+          {
+            "field": "type",
+            "filter": "agSetColumnFilter",
+            "headerName": "Type",
+            "resizable": true,
+            "width": 90,
+          },
+          {
+            "field": "refMarket",
+            "filter": "agSetColumnFilter",
+            "headerName": "Reference",
+            "resizable": true,
+            "width": 120,
+          },
+          {
+            "field": "demonination",
+            "filter": "agSetColumnFilter",
+            "headerName": "Demonination",
+            "resizable": true,
+            "width": 140,
+          },
+          {
+            "field": "issuranceDate",
+            "filter": "agDateColumnFilter",
+            "filterParams": {
+              "comparator": [Function],
+            },
+            "headerName": "Issuance Date",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "maturityDate",
+            "filter": "agDateColumnFilter",
+            "filterParams": {
+              "comparator": [Function],
+            },
+            "headerName": "Maturity Date",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "issuerCsd",
+            "filter": "agSetColumnFilter",
+            "headerName": "Issuer CSD",
+            "resizable": true,
+            "width": 120,
+          },
+          {
+            "field": "couponRate",
+            "filter": "agNumberColumnFilter",
+            "headerName": "Coupon Rate",
+            "resizable": true,
+            "width": 140,
+          },
+          {
+            "field": "issuerName",
+            "filter": "agTextColumnFilter",
+            "headerName": "Issuer Name",
+            "resizable": true,
+            "width": 300,
+          },
+          {
+            "field": "issuerResidence",
+            "filter": "agSetColumnFilter",
+            "headerName": "Issuer Residence",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "issuerGroup",
+            "filter": "agSetColumnFilter",
+            "headerName": "Issuer Group",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "guarantorName",
+            "filter": "agTextColumnFilter",
+            "headerName": "Guarantor Name",
+            "resizable": true,
+            "width": 300,
+          },
+          {
+            "field": "guarantorResidence",
+            "filter": "agSetColumnFilter",
+            "headerName": "Guarantor Residence",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "guarantorGroup",
+            "filter": "agSetColumnFilter",
+            "headerName": "Guarantor Group",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "couponDef",
+            "filter": "agSetColumnFilter",
+            "headerName": "Coupon Definition",
+            "resizable": true,
+            "width": 130,
+          },
+          {
+            "field": "haircut",
+            "filter": "agNumberColumnFilter",
+            "headerName": "Haircut",
+            "resizable": true,
+            "width": 150,
+          },
+        ]
+      }
+      onGridReady={[Function]}
+      rowData={[]}
+    />
+  </div>
+</div>
+`;

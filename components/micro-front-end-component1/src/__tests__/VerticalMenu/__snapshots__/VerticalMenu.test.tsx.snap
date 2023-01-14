@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerticalMenu snapshot 1`] = `
+<div
+  className="vmenu"
+>
+  <h3
+    className="vmenu-heading"
+  >
+    test
+  </h3>
+  <ul
+    className="vmenu-items"
+  >
+    <li
+      className="option"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        {
+          "backgroundColor": "var(--pageColor2)",
+        }
+      }
+    >
+      <p>
+        option1
+      </p>
+    </li>
+    <li
+      className="option"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        {
+          "backgroundColor": "var(--pageColor2)",
+        }
+      }
+    >
+      <p>
+        option2
+      </p>
+    </li>
+  </ul>
+</div>
+`;

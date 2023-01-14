@@ -1,0 +1,14 @@
+.about {
+  height: 2740px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: var(--pageFont);
+}
+
+p {
+  margin-block-start: 0px;
+}

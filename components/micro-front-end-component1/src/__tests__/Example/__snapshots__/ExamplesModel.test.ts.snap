@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create demo 1`] = `
+<div
+  className="demo"
+>
+  <Demo
+    code="import UniversalSelect from "universal-select";
+              import { options } from "./data";
+              
+              import "./styles.css";
+              
+              export default function App() {
+                return (
+                  <div className="Space">
+                    <UniversalSelect
+                      title="test"
+                      choices={[
+                        {
+                          key: "Words",
+                          options: options,
+                        }
+                      ]}
+                    />
+                  </div>
+                );
+              }"
+    description="The simpliest way to use the universal select - set the options to an array of strings"
+    props={
+      {
+        "choices": [
+          {
+            "key": "Words",
+            "options": [],
+          },
+        ],
+        "minWidth": "400px",
+        "title": "Bind String",
+      }
+    }
+    sandbox="https://codesandbox.io/s/universal-string-binding-ooesy7"
+  />
+  <Demo
+    code="import UniversalSelect from "universal-select";
+              import { options, Complex } from "./data";
+              
+              import "./styles.css";
+              
+              export default function App() {
+                return (
+                  <div className="Space">
+                    <UniversalSelect
+                      title="test"
+                      choices={[
+                        {
+                          key: "Words",
+                          options: options,
+                          text: (option: Complex) => option.name,
+                          value: (option: Complex) => option.value,
+                          search: "both"
+                        }
+                      ]}
+                    />
+                  </div>
+                );
+              }"
+    description="Universal select can be bound to objects"
+    props={
+      {
+        "choices": [
+          {
+            "key": "Words",
+            "options": [],
+            "search": "both",
+            "text": [Function],
+            "value": [Function],
+          },
+        ],
+        "minWidth": "400px",
+        "title": "Bind String",
+      }
+    }
+    sandbox="https://codesandbox.io/s/universal-object-binding-forked-oripsu"
+  />
+  <Demo
+    code="import UniversalSelect from "universal-select";
+              import { options } from "./data";
+              
+              import "./styles.css";
+              
+              export default function App() {
+                return (
+                  <div className="Space">
+                    <UniversalSelect
+                      title="test"
+                      choices={[
+                        {
+                          key: "Words",
+                          prefix: "words",
+                          options: options,
+                          search: "both"
+                        }
+                      ]}
+                    />
+                  </div>
+                );
+              }"
+    description="Universal select can be bound to an object that implements OptionType"
+    props={
+      {
+        "choices": [
+          {
+            "key": "Words",
+            "options": [],
+            "search": "both",
+          },
+        ],
+        "minWidth": "400px",
+        "title": "Bind String",
+      }
+    }
+    sandbox="https://codesandbox.io/s/universal-typed-binding-forked-dqgq6g"
+  />
+</div>
+`;
+
+exports[`create model 1`] = `
+{
+  "categories": [
+    {
+      "demo": [Function],
+      "name": "Binding",
+    },
+    {
+      "demo": [Function],
+      "name": "Single Select",
+    },
+    {
+      "demo": [Function],
+      "name": "Multi Select",
+    },
+    {
+      "demo": [Function],
+      "name": "Look-up",
+    },
+    {
+      "demo": [Function],
+      "name": "Custom Values",
+    },
+    {
+      "demo": [Function],
+      "name": "Selection prefixed",
+    },
+    {
+      "demo": [Function],
+      "name": "Disabled",
+    },
+    {
+      "demo": [Function],
+      "name": "Ag-Grid",
+    },
+  ],
+  "constructDemo": [Function],
+}
+`;
