@@ -32,7 +32,7 @@ const App = () => {
           <div className="header">
             <h1 className="title">An example micro frontend app for React</h1>
             <p className="statement">
-              A pratcial working example of how to create a micro frontend react app.
+              A pratcial, working example of how to create a micro frontend react app.
             </p>
           </div>
           <div className="menu-bar">
