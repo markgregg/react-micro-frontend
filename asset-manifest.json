@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-micro-front-ends/static/css/main.25e4a6ef.css",
-    "main.js": "/react-micro-front-ends/static/js/main.46ee3ab1.js",
+    "main.js": "/react-micro-front-ends/static/js/main.7c4c891d.js",
     "react-syntax-highlighter/refractor-core-import.js": "/react-micro-front-ends/static/js/react-syntax-highlighter/refractor-core-import.394b9232.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js",
@@ -157,7 +157,7 @@
     "static/js/787.9b2706ce.chunk.js": "/react-micro-front-ends/static/js/787.9b2706ce.chunk.js",
     "index.html": "/react-micro-front-ends/index.html",
     "main.25e4a6ef.css.map": "/react-micro-front-ends/static/css/main.25e4a6ef.css.map",
-    "main.46ee3ab1.js.map": "/react-micro-front-ends/static/js/main.46ee3ab1.js.map",
+    "main.7c4c891d.js.map": "/react-micro-front-ends/static/js/main.7c4c891d.js.map",
     "refractor-core-import.394b9232.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter/refractor-core-import.394b9232.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_abap.7d505bee.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js.map": "/react-micro-front-ends/static/js/react-syntax-highlighter_languages_refractor_actionscript.d41200be.chunk.js.map",
@@ -314,6 +314,6 @@
   },
   "entrypoints": [
     "static/css/main.25e4a6ef.css",
-    "static/js/main.46ee3ab1.js"
+    "static/js/main.7c4c891d.js"
   ]
 }
